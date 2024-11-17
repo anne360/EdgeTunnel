@@ -1,4 +1,4 @@
-# EdgeTunnel
+# EdgeTunnel (VLESS-V2ray)
 This is a script based on the CF Worker platform. It modifies the original version to display VLESS configuration information and convert it into subscription content. Using this script, you can easily convert VLESS configuration information to tools such as Clash or Singbox using online configuration.
 
 - Basic deployment video tutorial: https://www.youtube.com/watch?v=LeT4jQUh8ok
