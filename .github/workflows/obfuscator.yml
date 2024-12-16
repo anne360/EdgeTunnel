@@ -3,7 +3,7 @@ name: Obfuscate and Commit
 on:
     #push:
     #    paths:
-    #        - '明文源码.js'
+    #        - 'source.js'
     workflow_dispatch:
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
 
       - name: Obfuscate code
         run: |
-          javascript-obfuscator 明文源码.js --output _worker.js \
+          javascript-obfuscator source.js --output _worker.js \
           --compact true \
           --control-flow-flattening true \
           --control-flow-flattening-threshold 1 \
